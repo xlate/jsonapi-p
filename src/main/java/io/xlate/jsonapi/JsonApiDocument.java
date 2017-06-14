@@ -23,7 +23,7 @@ public interface JsonApiDocument extends JsonObject {
 
     JsonStructure getData();
 
-    JsonApiErrors getErrors();
+    JsonApiErrorArray getErrors();
 
     JsonObject getMeta();
 

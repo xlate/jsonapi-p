@@ -17,7 +17,7 @@ package io.xlate.jsonapi;
 
 import javax.json.JsonArray;
 
-public interface JsonApiErrors extends JsonArray {
+public interface JsonApiErrorArray extends JsonArray {
 
     JsonApiError getJsonApiError(int index);
 

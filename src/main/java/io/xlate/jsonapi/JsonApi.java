@@ -32,6 +32,8 @@ package io.xlate.jsonapi;
  */
 public class JsonApi {
 
+    public static final String MEDIA_TYPE = "application/vnd.api+json";
+
     public enum Version {
         VERSION_1_0("1.0");
 
